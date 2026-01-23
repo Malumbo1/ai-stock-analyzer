@@ -1,22 +1,86 @@
-# Stock Analyzer Pro 📈
+# 🤖 AI Stock Analyzer Pro
 
-Een geavanceerde real-time stock analyzer met AI-powered research capabilities.
+<div align="center">
 
-## Features
+[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.53+-red.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-- ✅ **Real-time prijzen** voor US stocks, Europese aandelen, en crypto
-- ✅ **Technische indicatoren**: RSI, MACD, Bollinger Bands, Moving Averages
-- ✅ **AI Research Agent** via OpenRouter (Claude, GPT-4, Llama, etc.)
-- ✅ **WebSocket streaming** voor real-time data
-- ✅ **Multi-market support**: NYSE, NASDAQ, AEX, DAX, Crypto
-- ✅ **Portfolio tracking** (coming soon)
+**Een krachtige real-time stock market analyzer met AI-powered research capabilities**
 
-## Installatie
+[Features](#-features) • [Quick Start](#-quick-start) • [Demo](#-demo) • [Documentation](#-documentation) • [Contributing](#-contributing)
 
-### 1. Clone de repository
+</div>
+
+---
+
+## ✨ Features
+
+### 📊 Real-Time Market Data
+- **Live Price Streaming** via WebSocket (US stocks, crypto)
+- **Multi-Market Support**: NYSE, NASDAQ, Crypto (BTC, ETH, SOL)
+- **Auto-Reconnect**: Robust connection management
+- **Rate Limiting**: Built-in protection for all providers
+
+### 📈 Advanced Technical Analysis
+- **RSI** (Relative Strength Index)
+- **MACD** (Moving Average Convergence Divergence)
+- **Bollinger Bands**
+- **SMA/EMA** (Simple & Exponential Moving Averages)
+- **ATR** (Average True Range)
+- **Trading Signals**: Automatic bullish/bearish/neutral detection
+
+### 🤖 AI-Powered Research
+- **OpenRouter Integration**: Access to multiple AI models
+- **FREE Model**: Xiaomi Mimo v2 Flash (no cost!)
+- **Premium Models**: Claude 3.5 Sonnet, GPT-4, Llama 3.1
+- **Smart Tool Use**: Automatic price lookup, technical analysis
+- **Chat Interface**: Natural language stock research
+
+### 📉 Interactive Visualization
+- **Multi-Timeframe Charts**: 1m, 5m, 15m, 1h, 4h, 1D
+- **Plotly Charts**: Beautiful, interactive, zoomable
+- **Real-time Updates**: Live price ticker
+- **Custom Watchlists**: Track your favorite symbols
+
+### 🔒 100% Free Tier Available
+- **No Trading**: Data-only APIs (view prices, analyze, research)
+- **Alpaca Paper Trading**: FREE real-time US stock data
+- **Binance Public API**: FREE crypto data (no auth required)
+- **OpenRouter FREE**: Xiaomi model included
+
+## 🎥 Demo
+
+### Dashboard
+Real-time price tracking met technische indicatoren en trading signals.
+
+### AI Research Assistant
+Chat met de AI analyst om diepgaande marktanalyses te krijgen:
+- "Analyseer AAPL technisch en geef me trading signals"
+- "Wat is de huidige trend van BTC-USD met RSI en MACD?"
+- "Vergelijk NVDA met AMD op basis van recente price action"
+
+### Multi-Timeframe Analysis
+Schakel tussen timeframes (1m tot 1D) voor verschillende trading strategieën.
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.12 of hoger
+- Git
+- OpenRouter API key (gratis model beschikbaar!)
+- Alpaca Paper Trading keys (gratis!)
+
+### Installation
+
+**1️⃣ Clone de repository**
 
 ```bash
-cd stockanalyzer
+git clone https://github.com/wmostert76/ai-stock-analyzer.git
+cd ai-stock-analyzer
 ```
 
 ### 2. Maak een virtual environment
@@ -211,6 +275,67 @@ Gebouwd met:
 - [OpenRouter](https://openrouter.ai)
 - [pandas-ta](https://github.com/twopirllc/pandas-ta)
 
-## Licentie
+## 🤝 Contributing
 
-MIT License - zie LICENSE file voor details.
+Contributions are welcome! Hier is hoe je kunt bijdragen:
+
+1. Fork de repository
+2. Maak een feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit je changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push naar de branch (`git push origin feature/AmazingFeature`)
+5. Open een Pull Request
+
+### Development Setup
+
+```bash
+# Clone je fork
+git clone https://github.com/your-username/ai-stock-analyzer.git
+cd ai-stock-analyzer
+
+# Maak virtual environment
+python -m venv venv
+source venv/Scripts/activate  # Windows Git Bash
+
+# Installeer dependencies
+pip install -r requirements.txt
+
+# Run tests
+python test_setup.py
+```
+
+### Ideas voor Contributions
+- [ ] European stocks support (Twelve Data integration)
+- [ ] Portfolio tracking functionality
+- [ ] Backtesting framework
+- [ ] More technical indicators
+- [ ] News sentiment analysis
+- [ ] Real-time alerts/notifications
+- [ ] Mobile-responsive design improvements
+
+## 📝 Licentie
+
+MIT License - zie [LICENSE](LICENSE) file voor details.
+
+## 🙏 Acknowledgments
+
+- [Streamlit](https://streamlit.io) - Beautiful UI framework
+- [Alpaca Markets](https://alpaca.markets) - Real-time stock data
+- [Binance](https://www.binance.com) - Crypto market data
+- [OpenRouter](https://openrouter.ai) - Multi-model AI access
+- [pandas-ta](https://github.com/twopirllc/pandas-ta) - Technical analysis library
+
+## 📧 Contact
+
+Voor vragen, suggesties of bug reports:
+- Open een [GitHub Issue](https://github.com/wmostert76/ai-stock-analyzer/issues)
+- Start een [Discussion](https://github.com/wmostert76/ai-stock-analyzer/discussions)
+
+---
+
+<div align="center">
+
+**⭐ Star dit project als je het handig vindt!**
+
+Made with ❤️ by the AI Stock Analyzer community
+
+</div>
